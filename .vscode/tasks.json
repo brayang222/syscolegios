@@ -1,0 +1,17 @@
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//     {
+//       "label": "bun dev",
+//       "type": "shell",
+//       "command": "bun",
+//       "args": ["dev"],
+//       "presentation": {
+//         "reveal": "always"
+//       },
+//       "runOptions": {
+//         "runOn": "folderOpen"
+//       }
+//     }
+//   ]
+// }

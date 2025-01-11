@@ -1,0 +1,97 @@
+:root {
+  --texto: rgb(214, 214, 214);
+  --background: #2b2a2a;
+}
+
+body {
+  background: var(--background);
+  width: 1024px;
+  display: block;
+  margin: auto;
+  font: Georgia, "Times New Roman", Times, serif;
+}
+
+.header {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-theme {
+  background-color: var(--background);
+  color: var(--texto);
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: black 3px solid;
+}
+.add-column {
+  padding: 30px !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+#principal {
+  background: var(--background);
+  color: var(--texto);
+  border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -o-border-radius: 10px 10px 10px 10px;
+  -ms-box-shadow: 0 0 1.3em black;
+  -moz-box-shadow: 0 0 1.3em black;
+  -webkit-box-shadow: 0 0 1.3em black;
+  -o-box-shadow: 0 0 1.3em black;
+  box-shadow: 0 0 1.3em black;
+}
+h1 {
+  border: Outset 6px #1976d2;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  color: black;
+}
+.entrada {
+  background-color: rgb(214, 214, 214);
+  font-family: "Bitstream Vera Serif";
+  font-weight: bold;
+  font-size: 12pt;
+  color: Crimson;
+  text-align: center;
+  width: 40px;
+}
+.salida {
+  text-align: center;
+  width: 40px;
+}
+
+input[type="text"] {
+  border-radius: 7px;
+}
+.fecha {
+  background-color: LightGoldenrodYellow;
+  font-family: "Bitstream Vera Serif";
+  color: Crimson;
+  font-weight: bold;
+  font-size: 12pt;
+  text-align: center;
+}
+p {
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
+    "Times New Roman", serif;
+  font-style: italic;
+  font-size: 14pt;
+  color: var(--texto);
+}
+h2 {
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times,
+    "Times New Roman", serif;
+  color: var(--texto);
+  font-size: 24px;
+}
