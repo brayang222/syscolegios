@@ -64,14 +64,15 @@ h1 {
   font-size: 12pt;
   color: Crimson;
   text-align: center;
-  width: 40px;
+  width: 50px;
 }
 .salida {
   text-align: center;
   width: 40px;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="number"] {
   border-radius: 7px;
 }
 .fecha {

@@ -45,7 +45,7 @@ $(function () {
         typeof Notas[codalu] != "undefined" && Notas[codalu][i]
           ? Notas[codalu][i]
           : "";
-      const input = `<input type="text" id="nota${i}_${codalu}" value="${nota}" size="3" class="entrada">`;
+      const input = `<input type="number" min="0" id="nota${i}_${codalu}" value="${nota}" size="3" class="entrada">`;
       html += `<td>${input}</td>`;
     }
 
@@ -104,7 +104,7 @@ function AdicionarColumna() {
 
     $("#tabla1 tbody tr").each(function () {
       const codalu = $(this).data("cod");
-      const nuevoInput = `<input type="text" id="nota${nuevaNotaIndex}_${codalu}" value="" size="3" class="entrada">`;
+      const nuevoInput = `<input type="number" min="0" id="nota${nuevaNotaIndex}_${codalu}" value="" size="3" class="entrada">`;
       // Insertar la nueva celda después de la última columna de nota
       $(this)
         .children("td")
